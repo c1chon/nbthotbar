@@ -1,63 +1,57 @@
-<div align="center">
-☠️ Cursed Hotbar ☠️
+# Cursed Hotbar
 
-A saved hotbar of cursed NBT items. One keypress. Total chaos.
+A saved Minecraft hotbar (`hotbar.nbt`) containing cursed items made with NBT data. Compatible with any version of Minecraft Java Edition.
 
-Show Image Show Image Show Image Show Image
+**Warning:** These items are cursed on purpose. Some may be broken or cause lag. Use a throwaway world.
 
-</div>
+## Requirements
 
-[!WARNING] These items are cursed on purpose. Some may be weird, broken, or laggy. Use a throwaway world.
+- Minecraft Java Edition (any version)
+- Creative mode
+- Windows 10 or 11
 
-📋 Requirements
-🎮 Minecraft Java Edition [your version]
-🛠️ Creative mode (saved hotbars only work there)
-🪟 Windows 10 or 11
-🪟 Install on Windows
-Step 1: Download
+## Installation
 
-Grab hotbar.nbt from the Releases page.
+**1. Download**
 
-Step 2: Close Minecraft
+Download `hotbar.nbt` from the [Releases](../../releases) page.
 
-Quit the game completely, otherwise it can overwrite the file when it exits.
+**2. Close Minecraft**
 
-Step 3: Open your game folder
+Quit the game completely. If it stays open, it may overwrite the file when it exits.
 
-Press Win + R, paste the path for your launcher, and hit Enter:
+**3. Open your game folder**
 
-Launcher	Paste this
-🟢 Vanilla launcher	%appdata%\.minecraft
-🟩 Modrinth App	%appdata%\ModrinthApp\profiles\<instance name>
+Press `Win + R`, enter the path for your launcher, and press **Enter**:
 
-[!TIP] Not sure where your instance is? Open your launcher, go to the instance page, and click Open folder.
+| Launcher | Path |
+|----------|------|
+| Vanilla launcher | `%appdata%\.minecraft` |
+| Modrinth App | `%appdata%\ModrinthApp\profiles\<instance name>` |
 
-Step 4: Drop it in
+If you are unsure where your instance is, open the instance page in your launcher and click **Open folder**.
 
-Copy hotbar.nbt into that folder, right next to options.txt and servers.dat.
+**4. Copy the file**
 
-<details> <summary>⚠️ Already have a <code>hotbar.nbt</code>? Click here</summary> <br>
+Copy `hotbar.nbt` into that folder, next to `options.txt` and `servers.dat`.
 
-Rename the old one to hotbar.nbt.bak first so you keep a backup, then paste the new one in.
+If a `hotbar.nbt` already exists, rename it to `hotbar.nbt.bak` first to keep a backup, then paste the new file.
 
-</details>
-Step 5: Play
+**5. Launch the game**
 
-Launch the game and you're done. ✅
+Start Minecraft and open a world.
 
-🕹️ How to use it
-Join a world in Creative mode
-Hold C and press a number 1 to 9
-Your cursed hotbar appears 💀
+## Usage
 
-[!NOTE] If the keys do nothing, check Options → Controls → Key Binds → Miscellaneous for the Load Toolbar Activator binding.
+1. Join a world in **Creative mode**.
+2. Hold **C** and press a number key from **1** to **9**.
 
-💾 Make your own
+If nothing happens, check **Options > Controls > Key Binds > Miscellaneous** and make sure **Load Toolbar Activator** is bound to **C**.
 
-Hold X and press a number key in Creative mode to save your current hotbar into that slot.
+## Creating your own hotbar
 
-<div align="center">
+In Creative mode, hold **X** and press a number key to save your current hotbar into that slot.
 
-<sub>Not affiliated with Mojang or Microsoft. Items may behave differently between game versions.</sub>
+## Disclaimer
 
-</div>
+This project is not affiliated with Mojang or Microsoft.
